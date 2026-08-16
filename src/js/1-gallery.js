@@ -87,5 +87,5 @@ function createGalleryMarkup(images) {
 };
 
 const lightbox = new SimpleLightbox('.gallery-link', {
-  captionDelay: 250,
+  captionDelay: 250, captionsData: 'alt',
 });
